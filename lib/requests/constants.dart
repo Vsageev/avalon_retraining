@@ -1,1 +1,1 @@
-const host = '127.0.0.1:8000';
+const host = 'web-production-0241.up.railway.app';
