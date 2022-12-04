@@ -44,8 +44,6 @@ class _ImagesLoadScreeenState extends State<ImagesLoadScreeen> {
           },
         ),
         GridView.builder(
-          physics: const NeverScrollableScrollPhysics(),
-          shrinkWrap: true,
           padding: const EdgeInsets.all(5),
           gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
               maxCrossAxisExtent: 150, childAspectRatio: 1, crossAxisSpacing: 5, mainAxisSpacing: 5),
