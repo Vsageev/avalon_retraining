@@ -46,7 +46,7 @@ class NavigatedPage extends StatelessWidget {
                 height: 35,
                 width: 35,
                 child: Image.network(
-                  'assets/logo.png',
+                  'https://firebasestorage.googleapis.com/v0/b/avalon-b1d6a.appspot.com/o/logo.png?alt=media&token=78b3eb04-4280-4416-b4e6-ede5ad8a16d2',
                   isAntiAlias: true,
                 ),
               ),

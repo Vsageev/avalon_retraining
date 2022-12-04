@@ -55,7 +55,7 @@ class _RecognitionResultsWaitingScreenState extends State<RecognitionResultsWait
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Image.network(
-          "assets/loader.gif",
+          "https://firebasestorage.googleapis.com/v0/b/avalon-b1d6a.appspot.com/o/loader.gif?alt=media&token=cf4bd0ba-8a07-4753-ad04-701ae43d369d",
           height: 400,
           width: 400,
         ),

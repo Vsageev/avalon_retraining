@@ -19,8 +19,6 @@ class ClassesPage extends StatelessWidget {
           builder: (context, state) {
             if (state is ClassesLoaded) {
               return GridView.builder(
-                physics: const NeverScrollableScrollPhysics(),
-                shrinkWrap: true,
                 padding: const EdgeInsets.all(5),
                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: 200, childAspectRatio: 0.8, crossAxisSpacing: 5, mainAxisSpacing: 5),

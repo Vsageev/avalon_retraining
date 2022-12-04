@@ -38,7 +38,7 @@ class ClassesCubit extends Cubit<ClassesState> {
           models: (state as ClassesLoaded).models +
               [
                 ClassPreviewModel(
-                  imageUrl: 'assets/placeholder.jpg',
+                  imageUrl: 'https://firebasestorage.googleapis.com/v0/b/avalon-b1d6a.appspot.com/o/placeholder.jpg?alt=media&token=609c8eaf-3fd3-4023-8172-d32e4ce986e4',
                   name: className,
                 ),
               ],
