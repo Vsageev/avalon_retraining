@@ -2,15 +2,6 @@
 
 Hosting https://avalon-b1d6a.web.app/#/
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Scince deploying backend needed too much resources for free hosting you'll need to run backend locally.
+Run site on browser with disabled CORS and follow instructions in backend's repo for it's deployment.
+Backend git: https://github.com/Vsageev/avalon_backend_local
