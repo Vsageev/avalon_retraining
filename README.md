@@ -1,6 +1,6 @@
 # avanpost_retraining
 
-A new Flutter project.
+Hosting https://avalon-b1d6a.web.app/#/
 
 ## Getting Started
 
