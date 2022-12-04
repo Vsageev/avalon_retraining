@@ -7,9 +7,19 @@ import 'package:avanpost_retraining/requests/constants.dart';
 
 class ClassesRequests {
   static Future<List<ClassPreviewModel>> getClasses() async {
-    final response = await http.get(Uri.https(host, '/api/categories'), headers: {"Content-Type": "application/json"});
+    final response = await http.get(Uri.http(host, '/api/categories'), headers: {"Content-Type": "application/json"});
 
     return ClassesResponse.fromJson(response.body).categories;
+  }
+
+  static Future<void> createClass(String name) async {
+    final response = await http.post(
+      Uri.http(host, '/api/categories/'),
+      body: json.encode({"name": name}),
+      headers: {"Content-Type": "application/json"},
+    );
+
+    return;
   }
 }
 

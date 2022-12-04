@@ -19,7 +19,7 @@ class StorageRequests {
     var dio = Dio();
     var formData = FormData.fromMap({'imageUrl': MultipartFile.fromBytes(bytes, filename: 'upload.png')});
 
-    var response = await dio.post('https://web-production-0241.up.railway.app/api/save_photo/', data: formData);
+    var response = await dio.post('http://127.0.0.1:8000/api/save_photo/', data: formData);
 
     print(response);
 
